@@ -49,8 +49,8 @@ public class Main{
 	 
 	        System.out.println("\n 1. CREATE DATA MAHASISWA");
 	        System.out.println("\n 2. READ RECORD");
-	        System.out.println("\n 3. UPDATE RECORD"); //belum 
-	        System.out.println("\n 4. DELETE RECORD"); //belum
+	        System.out.println("\n 3. UPDATE RECORD (x)"); //belum 
+	        System.out.println("\n 4. DELETE RECORD (x)"); //belum
 	        System.out.println("\n 5. Exit");
 	        System.out.println("\n\n");
 	        System.out.println(" Select Your Choice : ");
@@ -103,6 +103,8 @@ public class Main{
 					//insert temp object into the list
 					list.add(temp);
 
+
+					System.out.println();
 					System.out.println("Add Another Record (Y/N) ");
 
 					//proses menanyakan apakah akan lanjut atau tidak
