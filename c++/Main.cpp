@@ -27,15 +27,9 @@ int main(int argc, char const *argv[])
 	//"another" mrpkn variabel yg dibutuhkan dalam proses untuk melanjutkan program
 	//"choice" mrpkn variable untuk pemilihan menu
 
-	int n = 0;
-	int i; 
-
 	//premade linked list library
 	list<Mahasiswa> llist;
 
-	//menentukan banyaknya data mahasiswa yg bisa dimasukkan sekali jalan program
-	cout << "MASUKKAN BANYAKNYA MAHASISWA : ";
-	cin >> n;
 	
 
 	while(1){
@@ -46,8 +40,8 @@ int main(int argc, char const *argv[])
         cout << "\n\n";
         cout << "\n \t\t\t 1. CREATE DATA MAHASISWA";
         cout << "\n \t\t\t 2. READ RECORD";
-        cout << "\n \t\t\t 3. UPDATE RECORD"; //belum 
-        cout << "\n \t\t\t 4. DELETE RECORD"; //belum
+        cout << "\n \t\t\t 3. UPDATE RECORD (x)"; //belum 
+        cout << "\n \t\t\t 4. DELETE RECORD (x)"; //belum
         cout << "\n \t\t\t 5. Exit";
         cout << "\n\n";
         cout << "\t\t\t Select Your Choice : ";
@@ -59,10 +53,10 @@ int main(int argc, char const *argv[])
 
         //proses create
         case '1' :
-        	i = 0;
+        	
         	another = 'Y';
 
-        	while((another == 'Y' || another == 'y') || (i < n))
+        	while((another == 'Y' || another == 'y'))
         	{
         		system("cls"); 
 
@@ -95,8 +89,8 @@ int main(int argc, char const *argv[])
 				llist.push_back(temp);
 
 			    cout << "\n Add Another Record (Y/N) ";
-			    another = getchar();
-			    i++;
+			    cin >> another;
+			 
         	}
         	break;
 
