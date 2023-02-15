@@ -14,13 +14,14 @@
 
   Algoritma :
  1. main menu -> Pada main menu, user akan diminta untuk memasukkan integer dari 1-5 untuk memilih menu
- 2. menu "1" -> pada menu ini user akan diminta memasukkan nama, nim, prodi, dan fakultas mahasiswa. 
-                note : Testcase menu "1" : 
-                - Atta Arrezie Kurnia, 2006836, Ilkom, FPMIPA
-                - Bima Putra, 2005988, Ilkom, FPMIPA
-                - Bayu Bambang, 2093748, Fisika, FPMIPA
-                - Tazkia Hana Azzzahra, 1985405, DKV, FPSD
-                - Kevin Louis, 2003475, Ilmu Hukum, FH
+ 2. menu "1" -> pada menu ini user akan diminta memasukkan nama, nim, prodi, dan fakultas mahasiswa.
+
+note : Testcase menu "1" :
+- Atta Arrezie Kurnia, 2006836, Ilkom, FPMIPA
+- Bima Putra, 2005988, Ilkom, FPMIPA
+- Bayu Bambang, 2093748, Fisika, FPMIPA
+- Tazkia Hana Azzzahra, 1985405, DKV, FPSD
+- Kevin Louis, 2003475, Ilmu Hukum, FH
                 
            note : Template inputan tiap tiap variabel adalah sebagai berikut
            1. nama -> input nama lengkap mahasiswa
