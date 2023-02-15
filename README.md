@@ -21,6 +21,12 @@
                 - Bayu Bambang, 2093748, Fisika, FPMIPA
                 - Tazkia Hana Azzzahra, 1985405, DKV, FPSD
                 - Kevin Louis, 2003475, Ilmu Hukum, FH
+                
+           note : Template inputan tiap tiap variabel adalah sebagai berikut
+           1. nama -> input nama lengkap mahasiswa
+           2. nim -> input nim mahasiswa
+           3. prodi -> input prodi yang diambil mahasiswa
+           4. fakultas -> input fakultas asal dari prodi yang diambil mahasiswa
 
     Setelah user memasukkan data tersebut, program akan menanyakan apakah akan melanjutkan menginput data mahasiswa yang lain atau tidak
     tekan Y/y untuk melanjutkan,
