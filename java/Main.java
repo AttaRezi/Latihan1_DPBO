@@ -83,7 +83,7 @@ public class Main{
 
 					//proses input nama, nim, prodi, dan fakultas
 					System.out.println("Masukkan Nama Mahasiswa : ");
-					name = sc.next();
+					name = sc.nextLine();
 
 					System.out.println("Masukkan Nim Mahasiswa : ");
 					nim = sc.next();
